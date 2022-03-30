@@ -12,6 +12,24 @@ I'm 19 years old, I study and sometimes work in the food industry. I decided to 
 
 #### Code example:
 ```
+function onScroll(event){
+    const curPos = window.scrollY;
+    //console.log(curPos);
+    let a1=0;
+    document.querySelectorAll('body>.page-wrapper>#wrapper>a').forEach ((el)=>{
+              
+    
+       if ( a1 <= curPos-150 && curPos-150 < (el.offsetTop+a1)) {
+        
+                MENU.querySelectorAll('a').forEach(a => {
+              
+                    a.classList.remove('active');
+                if (a.getAttribute('href').substring(1)  === el.getAttribute('id')){            
+                    a.classList.add('active');
+                }
+                });
+          
+       }
 
 ```
 #### Work experience:
