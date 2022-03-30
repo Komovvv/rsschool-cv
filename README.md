@@ -1,1 +1,1 @@
-https://Komovvv.github.io/rsschool-cv/cv
+https://Komovvv.github.io/rsschool-cv/
