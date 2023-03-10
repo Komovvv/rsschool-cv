@@ -22,6 +22,7 @@ I work in the kitchen as an ordinary cook, but I always want to learn something 
 ## Skils
 * HTML (Basic)
 * CSS (Basic)
+* JS (Basic)
 
 ---
 
